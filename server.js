@@ -8,7 +8,7 @@ import path from 'path';
 import {fileURLToPath} from 'url';
 //es module fix
 const _filename =fileURLToPath(import.meta.url);
-const _dirname = path.dirname(_filename);
+const __dirname = path.dirname(_filename);
 // database config
 connectDB();
 
